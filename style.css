@@ -1,0 +1,18 @@
+div {
+  margin-bottom: 20px;
+}
+
+.first-letter::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+}
+
+.first-line::first-line {
+  color: red;
+}
+
+.selection::selection {
+  color: white;
+  background-color: red;
+}
